@@ -47,7 +47,7 @@ corpoTabela.innerHTML = linhas;
 function atualizaMédiaFinal(){
 const mediaFinal = calculaMédiaFinal();
 
-document.getElementById('media-final-valor').innerHTML = mediaFinal.toFixed(2);
+document.getElementById('media-final-valor').innerHTML = mediaFinal.toFixed(1);
 document.getElementById('media-final-resultado').innerHTML = mediaFinal >= notaMinima ? spanAprovado : spanReprovado;
 }
 
